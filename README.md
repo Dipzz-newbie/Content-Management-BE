@@ -8,6 +8,8 @@ A fast, reliable, and modular **RESTful API** built with **Node Js** for managin
 
 The API will be available at:
 
+- npm run start
+
 ```
 http://localhost:3000/api
 ```
