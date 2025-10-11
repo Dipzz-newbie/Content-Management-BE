@@ -5,7 +5,6 @@
   "main": "src/main.js",
   "scripts": {
     "start": "node src/main.js",
-    "build": "prisma generate && next build",
     "postinstall": "prisma generate",
     "prisma:generate": "npx prisma generate"
   },
