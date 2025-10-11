@@ -1,8 +1,9 @@
 import express from "express";
-import {publicRouter} from "../route/public-api.js";
-import {errorMiddleware} from "../middleware/error-middleware.js";
-import {userRouter} from "../route/api.js";
+import {publicRouter} from "./src/route/public-api.js";
+import {errorMiddleware} from "./src/middleware/error-middleware.js";
+import {userRouter} from "./src/route/api.js";
 import cors from "cors";
+import winston from "winston";
 
 const web = express();
 web.use(express.json());
@@ -15,8 +16,6 @@ web.use(publicRouter);
 web.use(userRouter);
 
 web.use(errorMiddleware);
-
-import winston from "winston";
 
 const logger = winston.createLogger({
     level: "info",
