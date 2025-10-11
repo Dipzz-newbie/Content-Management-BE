@@ -9,7 +9,7 @@ A fast, reliable, and modular **RESTful API** built with **Node Js** for managin
 The API will be available at:
 
 ```
-http://localhost:8080
+http://localhost:3000/api
 ```
 
 ---
