@@ -2,9 +2,9 @@
   "name": "belajar-nodejs-restful-api",
   "version": "1.0.0",
   "description": "Belajar NodeJS RESTful API",
-  "main": "src/main.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node src/main.js",
+    "start": "node main.js",
     "postinstall": "prisma generate",
     "prisma:generate": "npx prisma generate"
   },
