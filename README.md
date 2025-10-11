@@ -1,6 +1,18 @@
+---
+
 # Backend Content Management API
 
 A fast, reliable, and modular **RESTful API** built with **Node Js** for managing content-driven backend systems. Designed for **scalability**, **performance**, and **real-world scenarios**.
+
+---
+
+The API will be available at:
+
+```
+http://localhost:8080
+```
+
+---
 
 ## 📬 API Endpoints Overview
 
