@@ -4,10 +4,10 @@ import {errorMiddleware} from "../middleware/error-middleware.js";
 import {userRouter} from "../route/api.js";
 import cors from "cors";
 
-export const web = express();
+const web = express();
 web.use(express.json());
 web.use(cors({
-    origin: 'http://localhost:5173', 
+    origin: 'http://content_management_dipzz.vercel.app', 
     credentials: true
 }));
 
@@ -18,7 +18,7 @@ web.use(errorMiddleware);
 
 import winston from "winston";
 
-export const logger = winston.createLogger({
+const logger = winston.createLogger({
     level: "info",
     format: winston.format.json(),
     transports: [
