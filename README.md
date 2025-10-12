@@ -1,12 +1,12 @@
 ---
 
-## Backend Content Management API
+# Backend Content Management API
 
 A fast, reliable, and modular **RESTful API** built with **Node Js** for managing content-driven backend systems. Designed for **scalability**, **performance**, and **real-world scenarios**.
 
 ---
 
-# Setup project
+## Setup project
 
 - First Things
 ```bash
@@ -17,7 +17,7 @@ npm install
 npx prisma generate
 ```
 
-# push db
+## Push db
 
 - Config your .env first
 
@@ -31,7 +31,7 @@ DATABASE_URL=mysql://username:password/name_your_databases
 npx prisma db push
 ```
 
-# last before start 
+## Last before start 
 
 - Config the cors
 - Open file server.js
@@ -43,7 +43,7 @@ web.use(cors({
 }));
 ```
 
-# start 
+## Start 
 
 ```bash
 npm run start
@@ -52,6 +52,7 @@ npm run start
 ---
 
 The API will be available at:
+
 ```http
 http://localhost:3000/api
 ```
