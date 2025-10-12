@@ -13,10 +13,6 @@ A fast, reliable, and modular **RESTful API** built with **Node Js** for managin
 npm install
 ```
 
-```bash
-npx prisma generate
-```
-
 ## Push db
 
 - Config your .env first
@@ -29,6 +25,10 @@ DATABASE_URL=mysql://username:password/name_your_databases
 
 ```bash
 npx prisma db push
+```
+
+```bash
+npx prisma generate
 ```
 
 ## Last before start 
