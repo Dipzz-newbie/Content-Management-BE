@@ -15,6 +15,10 @@ npm install
 
 ## Push db
 
+```bash
+npx prisma generate
+```
+
 - Config your .env first
 
 ```
@@ -25,10 +29,6 @@ DATABASE_URL=mysql://username:password/name_your_databases
 
 ```bash
 npx prisma db push
-```
-
-```bash
-npx prisma generate
 ```
 
 ## Last before start 
