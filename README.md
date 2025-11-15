@@ -15,10 +15,6 @@ npm install
 
 ## Push db
 
-```bash
-npx prisma generate
-```
-
 - Config your .env first
 
 ```
